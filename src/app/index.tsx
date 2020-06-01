@@ -10,10 +10,11 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
-import { GlobalStyle } from '../styles/global-styles';
+import { GlobalStyle } from 'styles/global-styles';
 
 import { HomePage } from './containers/HomePage/Loadable';
-import { NotFoundPage } from './containers/NotFoundPage/Loadable';
+import { NotFoundPage } from './components/NotFoundPage/Loadable';
+import { SimpleButton } from './components/SimpleButton/Loadable';
 
 export function App() {
   return (
@@ -26,7 +27,8 @@ export function App() {
       </Helmet>
 
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/button" component={SimpleButton} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

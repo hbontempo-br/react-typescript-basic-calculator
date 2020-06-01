@@ -1,25 +1,22 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-import { NavBar } from '../NavBar';
-import { Masthead } from './Masthead';
-import { Features } from './Features';
-import { PageWrapper } from 'app/components/PageWrapper';
+import { Calculator } from '../../components/Calculator/Loadable';
+import { makeStyles } from '@material-ui/core';
 
-export function HomePage() {
+const useStyles = makeStyles(() => ({
+  root: {
+    width: '100vw',
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+}));
+
+export function HomePage(props) {
+  const classes = useStyles(props);
   return (
-    <>
-      <Helmet>
-        <title>Home Page</title>
-        <meta
-          name="description"
-          content="A React Boilerplate application homepage"
-        />
-      </Helmet>
-      <NavBar />
-      <PageWrapper>
-        <Masthead />
-        <Features />
-      </PageWrapper>
-    </>
+    <div className={classes.root}>
+      <Calculator />
+    </div>
   );
 }
