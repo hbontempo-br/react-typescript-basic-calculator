@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/react-typescript-basic-calculator/static/js/main.f3e404d4.chunk.js",
+    "runtime-main.js": "/react-typescript-basic-calculator/static/js/runtime-main.6b261f51.js",
+    "static/css/2.d54bb455.chunk.css": "/react-typescript-basic-calculator/static/css/2.d54bb455.chunk.css",
+    "static/js/2.09959b36.chunk.js": "/react-typescript-basic-calculator/static/js/2.09959b36.chunk.js",
+    "static/js/3.cd3787d0.chunk.js": "/react-typescript-basic-calculator/static/js/3.cd3787d0.chunk.js",
+    "static/js/4.7b5b4d3c.chunk.js": "/react-typescript-basic-calculator/static/js/4.7b5b4d3c.chunk.js",
+    "static/js/5.28f6ede1.chunk.js": "/react-typescript-basic-calculator/static/js/5.28f6ede1.chunk.js",
+    "static/js/6.65d420ff.chunk.js": "/react-typescript-basic-calculator/static/js/6.65d420ff.chunk.js",
+    "static/js/7.285802da.chunk.js": "/react-typescript-basic-calculator/static/js/7.285802da.chunk.js",
+    "static/js/8.64050fef.chunk.js": "/react-typescript-basic-calculator/static/js/8.64050fef.chunk.js",
+    "static/js/9.729cd2a7.chunk.js": "/react-typescript-basic-calculator/static/js/9.729cd2a7.chunk.js",
+    "index.html": "/react-typescript-basic-calculator/index.html",
+    "precache-manifest.933eb8a4e3a1c753baf3b131d1d234c2.js": "/react-typescript-basic-calculator/precache-manifest.933eb8a4e3a1c753baf3b131d1d234c2.js",
+    "service-worker.js": "/react-typescript-basic-calculator/service-worker.js",
+    "static/js/2.09959b36.chunk.js.LICENSE.txt": "/react-typescript-basic-calculator/static/js/2.09959b36.chunk.js.LICENSE.txt",
+    "static/js/3.cd3787d0.chunk.js.LICENSE.txt": "/react-typescript-basic-calculator/static/js/3.cd3787d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b261f51.js",
+    "static/css/2.d54bb455.chunk.css",
+    "static/js/2.09959b36.chunk.js",
+    "static/js/main.f3e404d4.chunk.js"
+  ]
+}
