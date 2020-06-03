@@ -14,21 +14,19 @@ import { GlobalStyle } from 'styles/global-styles';
 
 import { HomePage } from './containers/HomePage/Loadable';
 import { NotFoundPage } from './components/NotFoundPage/Loadable';
-import { SimpleButton } from './components/SimpleButton/Loadable';
 
 export function App() {
   return (
     <BrowserRouter>
       <Helmet
-        titleTemplate="%s - React Boilerplate"
-        defaultTitle="React Boilerplate"
+        titleTemplate="%s - Basic Calculator"
+        defaultTitle="Basic Calculator"
       >
-        <meta name="description" content="A React Boilerplate application" />
+        <meta name="description" content="React Typescript Basic Calculator" />
       </Helmet>
 
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/button" component={SimpleButton} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />
