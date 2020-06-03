@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2102511383ea9b055677d33ecc6ffa17",
+    "revision": "4c67d3688f4c0508f7867393779638e8",
     "url": "/react-typescript-basic-calculator/index.html"
   },
   {
-    "revision": "a81134112f7696923d2a",
+    "revision": "307eb80b4c81b2f90410",
     "url": "/react-typescript-basic-calculator/static/css/2.d54bb455.chunk.css"
   },
   {
-    "revision": "a81134112f7696923d2a",
-    "url": "/react-typescript-basic-calculator/static/js/2.09959b36.chunk.js"
+    "revision": "307eb80b4c81b2f90410",
+    "url": "/react-typescript-basic-calculator/static/js/2.4865c580.chunk.js"
   },
   {
     "revision": "c346956c1449420dcbe7f2a51cdfc9c4",
-    "url": "/react-typescript-basic-calculator/static/js/2.09959b36.chunk.js.LICENSE.txt"
+    "url": "/react-typescript-basic-calculator/static/js/2.4865c580.chunk.js.LICENSE.txt"
   },
   {
     "revision": "451e398bfed569ce7601",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-typescript-basic-calculator/static/js/9.729cd2a7.chunk.js"
   },
   {
-    "revision": "82ebcae5423292853b2f",
-    "url": "/react-typescript-basic-calculator/static/js/main.f3e404d4.chunk.js"
+    "revision": "3dc80ac19d2b554bf05c",
+    "url": "/react-typescript-basic-calculator/static/js/main.31c4be29.chunk.js"
   },
   {
     "revision": "330a639517af67bae50a",
